@@ -71,7 +71,7 @@ def generate_table(month_data):
             for member_folder in MEMBERS.keys():
                 if member_folder in month_data[month][day]:
                     path = month_data[month][day][member_folder]
-                    link = f"[링크]({REPO_URL}{path})"
+                    link = f"[✅]({REPO_URL}{path})"
                     row += f"| {link} "
                 else:
                     row += "|      "
