@@ -5,6 +5,7 @@ import re
 from collections import defaultdict
 from datetime import datetime
 
+# 멤버 설정 (폴더명 -> 표시할 이름)
 MEMBERS = {
     "JMS": "민선",
     "JSW": "시원",
@@ -66,8 +67,8 @@ def get_weekday(year: int, month: int, day: int) -> str:
 def generate_table(month_data):
     content = ""
     for month in sorted(month_data.keys()):
-        content += f"<details>\n  <summary><b>### 📅 {month}월</b></summary>\n\n"
-        content += "| 날짜 (요일) | " + " | ".join(MEMBERS.values()) + " |\n"
+        content += f"<details>\n  <summary><b>📅 {month}월</b></summary>\n\n"
+        content += "| 날짜 | " + " | ".join(MEMBERS.values()) + " |\n"
         content += "|-------------" + "|:---:" * len(MEMBERS) + "|\n"
 
         for day in sorted(month_data[month].keys()):
@@ -79,7 +80,7 @@ def generate_table(month_data):
                     link = f"[📄]({REPO_URL}{path})"
                     row += f"| {link} "
                 else:
-                    row += "| ❌ "
+                    row += "|     "
             row += "|\n"
             content += row
 
