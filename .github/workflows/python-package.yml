@@ -1,0 +1,36 @@
+name: Update README
+
+on:
+  push:
+    branches: [ "main" ] # main 브랜치에 push가 발생했을 때
+  pull_request:
+
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Python dependencies
+        run: pip install pytz
+
+      - name: Run update_readme.py script
+        run: python scripts/update_readme.py
+
+      - name: Commit & Push updated README
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "auto: update README with solved problems" || echo "No changes"
+          git push
