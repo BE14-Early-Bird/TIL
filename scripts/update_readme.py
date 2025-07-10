@@ -77,7 +77,6 @@ def generate_table(month_data):
                     row += "|      "
             row += "|\n"
             content += row
-
         content += "\n</details>\n\n"
     return content
 
