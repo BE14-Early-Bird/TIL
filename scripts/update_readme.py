@@ -67,24 +67,36 @@ def get_weekday(year: int, month: int, day: int) -> str:
 def generate_table(month_data):
     content = ""
     for month in sorted(month_data.keys()):
-        content += f"<details>\n  <summary><b>📅 {month}월</b></summary>\n\n"
-        content += "| 날짜 | " + " | ".join(MEMBERS.values()) + " |\n"
-        content += "|-------------" + "|:---:" * len(MEMBERS) + "|\n"
+        content += f"### 📅 {month}월\n\n"
+
+        # 날짜별 loop에서 주차별로 그룹핑
+        weeks = defaultdict(list)  # week_number -> [day]
 
         for day in sorted(month_data[month].keys()):
-            weekday = get_weekday(2025, month, day)
-            row = f"| **{day}일 ({weekday})** "
-            for member_folder in MEMBERS.keys():
-                if member_folder in month_data[month][day]:
-                    path = month_data[month][day][member_folder]
-                    link = f"[📄]({REPO_URL}{path})"
-                    row += f"| {link} "
-                else:
-                    row += "|     "
-            row += "|\n"
-            content += row
+            date = datetime(2025, month, day)
+            week_number = (date.day - 1) // 7 + 1  # 1일~7일은 1주차, 8~14는 2주차 등
+            weeks[week_number].append(day)
 
-        content += "\n</details>\n\n"
+        for week_num in sorted(weeks.keys()):
+            content += f"<details>\n  <summary><b>{week_num}주차</b></summary>\n\n"
+            content += "| 날짜 | " + " | ".join(MEMBERS.values()) + " |\n"
+            content += "|-------------" + "|:---:" * len(MEMBERS) + "|\n"
+
+            for day in weeks[week_num]:
+                weekday = get_weekday(2025, month, day)
+                row = f"| **{day}일 ({weekday})** "
+                for member_folder in MEMBERS.keys():
+                    if member_folder in month_data[month][day]:
+                        path = month_data[month][day][member_folder]
+                        link = f"[📄]({REPO_URL}{path})"
+                        row += f"| {link} "
+                    else:
+                        row += "|     "
+                row += "|\n"
+                content += row
+
+            content += "\n</details>\n\n"
+
     return content
 
 def main():
