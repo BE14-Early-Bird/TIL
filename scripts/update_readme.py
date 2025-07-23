@@ -4,6 +4,7 @@ import os
 import re
 from collections import defaultdict
 from datetime import datetime
+from calendar import monthcalendar
 
 # 멤버 설정 (폴더명 -> 표시할 이름)
 MEMBERS = {
@@ -59,23 +60,32 @@ def parse_files():
 
     return month_data
 
+
+def get_week_map(year: int, month: int) -> dict[int, int]:
+    calendar_weeks = monthcalendar(year, month)
+    week_map = {}
+    for week_idx, week in enumerate(calendar_weeks, start=1):
+        for day in week:
+            if day != 0:
+                week_map[day] = week_idx
+    return week_map
+
 def get_weekday(year: int, month: int, day: int) -> str:
     date = datetime(year, month, day)
     weekdays = ["월", "화", "수", "목", "금", "토", "일"]
     return weekdays[date.weekday()]
 
+
 def generate_table(month_data):
     content = ""
     for month in sorted(month_data.keys()):
         content += f"### 📅 {month}월\n\n"
+        week_map = get_week_map(2025, month)
 
-        # 날짜별 loop에서 주차별로 그룹핑
-        weeks = defaultdict(list)  # week_number -> [day]
-
+        weeks = defaultdict(list)
         for day in sorted(month_data[month].keys()):
-            date = datetime(2025, month, day)
-            week_number = (date.day - 1) // 7 + 1  # 1일~7일은 1주차, 8~14는 2주차 등
-            weeks[week_number].append(day)
+            week_num = week_map.get(day, 0)
+            weeks[week_num].append(day)
 
         for week_num in sorted(weeks.keys()):
             content += f"<details>\n  <summary><b>{week_num}주차</b></summary>\n\n"
@@ -96,7 +106,6 @@ def generate_table(month_data):
                 content += row
 
             content += "\n</details>\n\n"
-
     return content
 
 def main():
