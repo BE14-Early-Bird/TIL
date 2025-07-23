@@ -6,7 +6,7 @@ import calendar
 
 from collections import defaultdict
 from datetime import datetime
-from calendar import monthcalendar
+from calendar import monthcalendar, SUNDAY
 
 # 멤버 설정 (폴더명 -> 표시할 이름)
 MEMBERS = {
@@ -78,20 +78,54 @@ def get_weekday(year: int, month: int, day: int) -> str:
     weekdays = ["월", "화", "수", "목", "금", "토", "일"]
     return weekdays[date.weekday()]
 
+def get_week_map_with_range(year: int, month: int):
+    """
+    주차별 정보 생성:
+    - day → week_num
+    - week_num → (start_day, end_day)
+    """
+    calendar.setfirstweekday(SUNDAY)  # 일요일 시작 보장
+    weeks = monthcalendar(year, month)
+    
+    day_to_week = {}
+    week_range = {}  # week_num → (start_day, end_day)
+    
+    for idx, week in enumerate(weeks, start=1):
+        days_in_week = [day for day in week if day != 0]
+        if not days_in_week:
+            continue
+        start_day, end_day = days_in_week[0], days_in_week[-1]
+        week_range[idx] = (start_day, end_day)
+        for day in days_in_week:
+            day_to_week[day] = idx
+            
+    return day_to_week, week_range
 
 def generate_table(month_data):
     content = ""
+    today = datetime.today()
+    current_year, current_month, current_day = today.year, today.month, today.day
+
     for month in sorted(month_data.keys()):
         content += f"### 📅 {month}월\n\n"
-        week_map = get_week_map(2025, month)
+
+        day_to_week, week_range = get_week_map_with_range(2025, month)
+
+        current_week = None
+        if current_year == 2025 and current_month == month:
+            current_week = day_to_week.get(current_day)
 
         weeks = defaultdict(list)
         for day in sorted(month_data[month].keys()):
-            week_num = week_map.get(day, 0)
+            week_num = day_to_week.get(day, 0)
             weeks[week_num].append(day)
 
         for week_num in sorted(weeks.keys()):
-            content += f"<details>\n  <summary><b>{week_num}주차</b></summary>\n\n"
+            start_day, end_day = week_range.get(week_num, (0, 0))
+            emoji = " ⭐" if week_num == current_week else ""
+            summary = f"<summary><b>{week_num}주차 ({start_day}일~{end_day}일){emoji}</b></summary>"
+            content += f"<details>\n  {summary}\n\n"
+
             content += "| 날짜 | " + " | ".join(MEMBERS.values()) + " |\n"
             content += "|-------------" + "|:---:" * len(MEMBERS) + "|\n"
 
@@ -109,6 +143,7 @@ def generate_table(month_data):
                 content += row
 
             content += "\n</details>\n\n"
+
     return content
 
 def main():
