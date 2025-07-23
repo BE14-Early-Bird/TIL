@@ -71,7 +71,7 @@
 | 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
 | **21일 (월)** | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JMS/2025-07-21.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSH/2025-07-21.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-07-21.md) |     |
-| **22일 (화)** | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JMS/2025-07-22.md) |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KKJ/2025-07-22.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSH/2025-07-22.md) |     |     |
+| **22일 (화)** | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JMS/2025-07-22.md) |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KKJ/2025-07-22.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSH/2025-07-22.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-07-22.md) |     |
 | **23일 (수)** |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KKJ/2025-07-23.md) |     |     |     |
 
 </details>
