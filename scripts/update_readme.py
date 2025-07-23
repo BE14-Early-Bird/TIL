@@ -2,6 +2,8 @@
 
 import os
 import re
+import calendar
+
 from collections import defaultdict
 from datetime import datetime
 from calendar import monthcalendar
@@ -62,7 +64,8 @@ def parse_files():
 
 
 def get_week_map(year: int, month: int) -> dict[int, int]:
-    calendar_weeks = monthcalendar(year, month)
+    calendar.setfirstweekday(calendar.SUNDAY)
+    calendar_weeks = calendar.monthcalendar(year, month)
     week_map = {}
     for week_idx, week in enumerate(calendar_weeks, start=1):
         for day in week:
