@@ -97,7 +97,7 @@
 
 | 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1일 (금)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-01.md) |     |
+| **1일 (금)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-01.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-01.md) |     |
 
 </details>
 
