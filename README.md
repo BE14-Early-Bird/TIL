@@ -122,7 +122,7 @@
 | **11일 (월)** | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JMS/2025-08-11.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-11.md) |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSH/2025-08-11.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-11.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/MSK/2025-08-11.md) |
 | **12일 (화)** | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JMS/2025-08-12.md) |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KKJ/2025-08-12.md) |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-12.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/MSK/2025-08-12.md) |
 | **13일 (수)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-13.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KKJ/2025-08-13.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSH/2025-08-13.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-13.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/MSK/2025-08-13.md) |
-| **14일 (목)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-14.md) |     |     |     |     |
+| **14일 (목)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-14.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-14.md) |     |
 
 </details>
 
