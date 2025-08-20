@@ -132,7 +132,7 @@
 | 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
 | **18일 (월)** |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSH/2025-08-18.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-18.md) |     |
-| **19일 (화)** |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSH/2025-08-19.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-19.md) |     |
+| **19일 (화)** |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSH/2025-08-19.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-19.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/MSK/2025-08-19.md) |
 | **20일 (수)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-20.md) |     |     |     |     |
 
 </details>
