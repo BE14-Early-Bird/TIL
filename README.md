@@ -127,7 +127,7 @@
 </details>
 
 <details>
-  <summary><b>4주차 (17일~23일) ⭐</b></summary>
+  <summary><b>4주차 (17일~23일)</b></summary>
 
 | 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -136,6 +136,15 @@
 | **20일 (수)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-20.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KKJ/2025-08-20.md) |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-20.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/MSK/2025-08-20.md) |
 | **21일 (목)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-21.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KKJ/2025-08-21.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSH/2025-08-21.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-21.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/MSK/2025-08-21.md) |
 | **22일 (금)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-22.md) | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KKJ/2025-08-22.md) |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-22.md) |     |
+
+</details>
+
+<details>
+  <summary><b>5주차 (24일~30일) ⭐</b></summary>
+
+| 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
+|-------------|:---:|:---:|:---:|:---:|:---:|:---:|
+| **25일 (월)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-25.md) |     |
 
 </details>
 
