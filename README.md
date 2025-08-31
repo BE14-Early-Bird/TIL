@@ -140,14 +140,14 @@
 </details>
 
 <details>
-  <summary><b>5주차 (24일~30일) ⭐</b></summary>
+  <summary><b>5주차 (24일~30일)</b></summary>
 
 | 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
 | **25일 (월)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-25.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-25.md) |     |
 | **26일 (화)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-26.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-26.md) |     |
 | **27일 (수)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-27.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-27.md) |     |
-| **28일 (목)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-28.md) |     |
+| **28일 (목)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-08-28.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-28.md) |     |
 | **29일 (금)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-08-29.md) |     |
 
 </details>
