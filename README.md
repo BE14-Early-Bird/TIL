@@ -161,6 +161,7 @@
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1일 (월)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-01.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-01.md) |     |
 | **2일 (화)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-02.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-02.md) |     |
+| **3일 (수)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-03.md) |     |     |     |     |
 
 </details>
 
