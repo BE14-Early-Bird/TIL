@@ -155,7 +155,7 @@
 ### 📅 9월
 
 <details>
-  <summary><b>1주차 (1일~6일) ⭐</b></summary>
+  <summary><b>1주차 (1일~6일)</b></summary>
 
 | 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -164,6 +164,15 @@
 | **3일 (수)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-03.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-03.md) |     |
 | **4일 (목)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-04.md) |     |
 | **5일 (금)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-05.md) |     |
+
+</details>
+
+<details>
+  <summary><b>2주차 (7일~13일) ⭐</b></summary>
+
+| 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
+|-------------|:---:|:---:|:---:|:---:|:---:|:---:|
+| **8일 (월)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-08.md) |     |
 
 </details>
 
