@@ -162,7 +162,7 @@
 | **1일 (월)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-01.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-01.md) |     |
 | **2일 (화)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-02.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-02.md) |     |
 | **3일 (수)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-03.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-03.md) |     |
-| **4일 (목)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-04.md) |     |
+| **4일 (목)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-04.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-04.md) |     |
 | **5일 (금)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-05.md) |     |
 
 </details>
@@ -173,6 +173,7 @@
 | 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
 | **8일 (월)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-08.md) |     |
+| **9일 (화)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-09.md) |     |     |     |     |
 
 </details>
 
