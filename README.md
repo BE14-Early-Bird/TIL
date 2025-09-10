@@ -174,7 +174,7 @@
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
 | **8일 (월)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-08.md) |     |
 | **9일 (화)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-09.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-09.md) |     |
-| **10일 (수)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-10.md) |     |
+| **10일 (수)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-10.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-10.md) |     |
 
 </details>
 
