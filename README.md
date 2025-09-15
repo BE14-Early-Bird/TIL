@@ -168,7 +168,7 @@
 </details>
 
 <details>
-  <summary><b>2주차 (7일~13일) ⭐</b></summary>
+  <summary><b>2주차 (7일~13일)</b></summary>
 
 | 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -177,6 +177,15 @@
 | **10일 (수)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-10.md) |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-10.md) |     |
 | **11일 (목)** |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/JSW/2025-09-11.md) |     |     |     |     |
 | **12일 (금)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-12.md) |     |
+
+</details>
+
+<details>
+  <summary><b>3주차 (14일~20일) ⭐</b></summary>
+
+| 날짜 | 민선 | 시원 | 기종 | 석희 | 성민 | 민수 |
+|-------------|:---:|:---:|:---:|:---:|:---:|:---:|
+| **15일 (월)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-15.md) |     |
 
 </details>
 
