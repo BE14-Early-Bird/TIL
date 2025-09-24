@@ -200,6 +200,7 @@
 |-------------|:---:|:---:|:---:|:---:|:---:|:---:|
 | **22일 (월)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-22.md) |     |
 | **23일 (화)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-23.md) |     |
+| **24일 (수)** |     |     |     |     | [📄](https://github.com/BE14-Early-Bird/TIL/blob/main/KSM/2025-09-24.md) |     |
 
 </details>
 
